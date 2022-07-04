@@ -2,7 +2,7 @@
 
 require "hanami/application/action"
 
-module AppPrototype
+module HanamiAppsignal
   class Action < Hanami::Application::Action
   end
 end

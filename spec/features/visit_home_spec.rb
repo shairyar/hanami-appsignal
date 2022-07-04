@@ -3,6 +3,6 @@
 RSpec.feature "Loading the home page" do
   scenario "It shows the page title" do
     visit "/"
-    expect(page).to have_content "Welcome to AppPrototype"
+    expect(page).to have_content "Welcome to HanamiAppsignal"
   end
 end

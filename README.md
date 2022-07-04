@@ -1,23 +1,23 @@
-# Hanami 2 Application Template
+# HanamiAppsignal
 
-If you’ve been interested in exploring or testing our in-progress Hanami 2 work,
-this application template can help you start! [Learn more in my announcement
-post][ann].
+This is an Hanami 2 application.
 
-[ann]: https://timriley.info/writing/2020/05/07/sharing-my-hanami-2-application-template/
+## Local development
 
-To create an application from this template, click the “Use this template”
-button above.
-
-Then, once you’ve cloned your new repository, run:
+To set up the app:
 
 ```sh
-./bin/install name_of_your_app
+$ ./bin/setup
 ```
 
-This will rename all instances of `AppPrototype` within
-(in all its case variations) to the name of your application.
+To run the tests:
 
-Then rename the `.env-example` file to `.env`, and update the values as necessary.
+```sh
+$ bundle exec rake
+```
 
-See [README.app.md](README.app.md) for details of the generated application.
+To start the app:
+
+```sh
+$ bundle exec puma -C config/puma.rb
+```

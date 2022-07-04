@@ -2,10 +2,10 @@
 
 require "hanami"
 
-module AppPrototype
+module HanamiAppsignal
   class Application < Hanami::Application
     config.sessions = :cookie, {
-      key: "app_prototype.session",
+      key: "hanami_appsignal.session",
       secret: settings.session_secret,
       expire_after: 60 * 60 * 24 * 365 # 1 year
     }

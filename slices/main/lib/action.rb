@@ -2,6 +2,6 @@
 # frozen_string_literal: true
 
 module Main
-  class Action < AppPrototype::Action
+  class Action < HanamiAppsignal::Action
   end
 end

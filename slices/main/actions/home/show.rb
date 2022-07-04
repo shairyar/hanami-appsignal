@@ -5,7 +5,7 @@ module Main
     module Home
       class Show < Main::Action
         def handle(*, res)
-          res.body = "Welcome to AppPrototype"
+          res.body = "Welcome to HanamiAppsignal"
         end
       end
     end
