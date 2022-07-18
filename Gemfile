@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org/"
+gem "appsignal"
 
 # Application framework
 gem "hanami", "~> 2.0.0.alpha"
