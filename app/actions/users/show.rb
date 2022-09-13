@@ -5,7 +5,8 @@ module Bookshelf
     module Users
       class Show < Bookshelf::Action
         def handle(*, response)
-          response.body = self.class.name
+          Appsignal.set_action("GET Users#Show")
+          response.body = self.class.wrong_name
         end
       end
     end
